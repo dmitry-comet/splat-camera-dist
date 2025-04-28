@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splats</title>
+    <style>
+        .link-container {
+            display: flex;
+            flex-direction: column; /* Arrange links vertically */
+            align-items: center; /* Center links horizontally */
+        }
+
+        .link-container a {
+            display: block; /* Make each link take up a full line */
+            color: #eee; /* Light gray text */
+            background-color: #333; /* Dark gray background for the link */
+            padding: 15px 30px; /* Add padding for a larger clickable area */
+            margin-bottom: 10px; /* Add spacing between links */
+            text-decoration: none; /* Remove underlines */
+            border-radius: 5px; /* Add rounded corners */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+            width: 150px; /* Set a fixed width for consistent button size */
+            text-align: center; /* Center text within the link button */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+        }
+
+        .link-container a:hover {
+            background-color: #555; /* Darker gray on hover */
+            color: #fff; /* White text on hover */
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); /* Slightly larger shadow on hover */
+        }
+    </style>
+</head>
+<body style="background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;">
+    <div class="link-container">
+        <a href="/src/html/hq.html">HQ (Babylon.JS)</a>
+        <a href="/src/html/lq.html">LQ (Babylon.JS)</a>
+    </div>
+</body>
+</html>
